@@ -1,0 +1,11 @@
+nano ~/.gitconfig #Es para ver lo que hay
+git config --global user.name "Tatiana Villamizar"
+git config --global user.email "tm8497077@gmail.com"
+git config --global init.defaultBranch main
+git config --global core.editor "code --wait" #Cofigura a visual como editor
+git config --global -e #Permite ver y modificar las configuraciones de github
+#Se incicializa repositorio
+git init
+git status #Sber estado de archivos
+git add archivo #Se agrega nombre de archivo o .\archivo en windows
+
