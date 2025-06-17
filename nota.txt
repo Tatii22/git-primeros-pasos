@@ -8,4 +8,6 @@ git config --global -e #Permite ver y modificar las configuraciones de github
 git init
 git status #Sber estado de archivos
 git add archivo #Se agrega nombre de archivo o .\archivo en windows
-
+git commit -m ":tada: proyecto inicial" #Se crea el commit
+git log # Se ven los commit creados
+git restore archivo #Es para restaurar archivos
