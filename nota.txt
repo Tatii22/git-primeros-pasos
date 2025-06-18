@@ -3,6 +3,7 @@ git config --global user.name "Tatiana Villamizar"
 git config --global user.email "tm8497077@gmail.com"
 git config --global init.defaultBranch main
 git config --global core.editor "code --wait" #Cofigura a visual como editor
+git config --global -l # Lista de configuraciones realizadas
 git config --global -e #Permite ver y modificar las configuraciones de github
 #Se incicializa repositorio
 git init
@@ -11,3 +12,7 @@ git add archivo #Se agrega nombre de archivo o .\archivo en windows
 git commit -m ":tada: proyecto inicial" #Se crea el commit
 git log # Se ven los commit creados
 git restore archivo #Es para restaurar archivos
+
+------
+git fetch #Actulizamos la rama remota
+git pull #Insertamos los cambios que se hicieron en el remoto 
